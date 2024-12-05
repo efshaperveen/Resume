@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.resume-container {
+    width: 55%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    letter-spacing: 5px;
+    color: black;
+}
+
+header h2 {
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column {
+    width: 48%;
+    padding-right: 20px;
+    border-right: 2px solid #ddd;
+    /* Vertical line on the right */
+}
+
+.right-column {
+    width: 48%;
+    padding-left: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    color: black;
+}
+
+i {
+    margin-right: .5em;
+}
+
+a {
+    color: blue;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.contact,
+.skills,
+.education,
+.about,
+.work-experience {
+    margin-bottom: 20px;
+}
