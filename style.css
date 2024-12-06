@@ -77,3 +77,39 @@ ul li {
 .work-experience {
     margin-bottom: 20px;
 }
+/* Responsive styles */
+@media (max-width: 768px) {
+    .resume-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .left-column,
+    .right-column {
+        width: 100%;
+        padding: 0;
+        border: none;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    header h2 {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    ul li {
+        font-size: 14px;
+    }
+}
